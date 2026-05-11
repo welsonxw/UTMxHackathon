@@ -12,9 +12,15 @@ import { PERSONAS, type StatAxes, type Transaction } from '@/lib/types';
 import StatBars      from '@/components/StatBars';
 import SimulateButton from '@/components/SimulateButton';
 
-// SSR-safe: both use browser APIs
-const Creature       = dynamic(() => import('@/components/Creature'),       { ssr: false });
-const Constellation  = dynamic(() => import('@/components/Constellation'),  { ssr: false });
+// SSR-safe: p5.js and framer-motion SVG need the browser
+const Creature = dynamic(() => import('@/components/Creature'), {
+  ssr: false,
+  loading: () => <div className="w-[252px] h-[252px] rounded-2xl bg-slate-800 animate-pulse" />,
+});
+const Constellation = dynamic(() => import('@/components/Constellation'), {
+  ssr: false,
+  loading: () => <div className="w-[460px] h-[460px] rounded-2xl bg-slate-800 animate-pulse" />,
+});
 
 // How long until the simulate animation finishes (8 points × 250ms + 800ms buffer)
 const SIM_DURATION_MS = 8 * 250 + 800;
@@ -56,24 +62,26 @@ export default function Dashboard() {
     setIsSimulated(false);
     setIsAnimating(false);
 
-    // Try Firestore — silently upgrade if available
-    // TODO: Remove TODO flag once Firestore seeded by Phase 3 pipeline.
+    // Attempt real-time Firestore upgrade — only when Firebase is configured.
+    // If API key is the placeholder value, skip connection to avoid console warnings.
+    const isConfigured = process.env.NEXT_PUBLIC_FIREBASE_API_KEY !== 'placeholder';
     let unsubscribe: (() => void) | null = null;
-    try {
-      unsubscribe = onSnapshot(
-        doc(db, 'users', activePersona),
-        (snap) => {
-          if (!snap.exists()) return;
-          const d = snap.data() as Partial<PersonaFallback>;
-          if (d.currentWeekStats) setDisplayStats(d.currentWeekStats);
-          if (d.transactions)     setTransactions(d.transactions);
-          // Merge remaining fields into data
-          setData((prev) => ({ ...prev, ...d }));
-        },
-        () => { /* Firestore unavailable — fallback already loaded */ },
-      );
-    } catch {
-      // Firebase not configured — local fallback already shown
+    if (isConfigured) {
+      try {
+        unsubscribe = onSnapshot(
+          doc(db, 'users', activePersona),
+          (snap) => {
+            if (!snap.exists()) return;
+            const d = snap.data() as Partial<PersonaFallback>;
+            if (d.currentWeekStats) setDisplayStats(d.currentWeekStats);
+            if (d.transactions)     setTransactions(d.transactions);
+            setData((prev) => ({ ...prev, ...d }));
+          },
+          () => { /* Firestore connection failed — precomputed data already shown */ },
+        );
+      } catch {
+        // Firebase unavailable
+      }
     }
 
     return () => unsubscribe?.();

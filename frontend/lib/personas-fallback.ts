@@ -1,11 +1,13 @@
 /**
- * Static fallback data derived from ml-pipeline/output/ JSON files.
- * Used when Firestore is unavailable or not yet populated.
+ * Precomputed persona data — derived from ml-pipeline/output/ JSON files.
  *
- * TODO: remove this module before demo once Firestore is seeded by Phase 3 pipeline.
- * Stats: baseline = 90-day rolling, currentWeekStats = latest computed week.
- * Creature params: hand-tuned per Section 10 for visual distinctiveness.
- * Simulated deltas: curated per Section 10 demo scenarios.
+ * Stats:   baseline = 90-day rolling (from stats_*.json)
+ *          currentWeekStats = latest computed week (*_week fields)
+ * Creature params: tuned per Section 10 spec for visual distinctiveness.
+ * Simulated deltas: curated "this week" scenarios per Section 10 demo.
+ *
+ * When Firestore is seeded (run ml-pipeline/notebooks/06_upload_to_firestore.ipynb),
+ * the dashboard's onSnapshot subscription will upgrade to live Firestore data automatically.
  */
 
 import type {
