@@ -1,41 +1,97 @@
 'use client';
 
-import { usePersona } from '@/lib/persona-context';
-import { PERSONAS } from '@/lib/types';
+import { useState, useCallback } from 'react';
+import dynamic from 'next/dynamic';
+import type { PersonaId } from '@/lib/types';
 
-export default function Battle() {
-  const { activePersona } = usePersona();
-  const { name } = PERSONAS[activePersona];
+// SSR-safe: BattleArena uses p5 + framer-motion
+const BattleArena = dynamic(() => import('@/components/BattleArena'), { ssr: false });
+
+type MatchupId = 'headline' | 'alt';
+
+const MATCHUPS: Record<MatchupId, {
+  label:    string;
+  sub:      string;
+  a:        PersonaId;
+  b:        PersonaId;
+  tagA:     string;
+  tagB:     string;
+}> = {
+  headline: {
+    label: 'Aisyah vs Daniel',
+    sub:   'The headline match — B40 saver vs T20 drifter',
+    a: 'aisyah',
+    b: 'daniel',
+    tagA: 'B40 · RM 2,200/mo',
+    tagB: 'T20 · RM 9,500/mo',
+  },
+  alt: {
+    label: 'Mei Ling vs Hafiz',
+    sub:   'Chaotic improver vs disciplined plateau',
+    a: 'mei_ling',
+    b: 'hafiz',
+    tagA: 'B40 · RM ~2,650/mo',
+    tagB: 'T20 · RM 7,200/mo',
+  },
+};
+
+export default function BattlePage() {
+  const [activeMatchup, setActiveMatchup] = useState<MatchupId>('headline');
+  // Bump key on matchup change to fully remount BattleArena (resets state)
+  const [arenaKey, setArenaKey] = useState(0);
+
+  const selectMatchup = useCallback((id: MatchupId) => {
+    setActiveMatchup(id);
+    setArenaKey((k) => k + 1);
+  }, []);
+
+  const { a, b, sub } = MATCHUPS[activeMatchup];
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-10">
-      <h2 className="text-3xl font-bold text-white mb-2">Battle Arena</h2>
-      <p className="text-slate-400 mb-10">
-        Income-fair PvP — delta-from-baseline scores only
+    <div className="max-w-3xl mx-auto px-6 py-8">
+      {/* Header */}
+      <h2 className="text-2xl font-bold text-white mb-1">Battle Arena</h2>
+      <p className="text-slate-400 text-sm mb-6">
+        Income-fair PvP — scores are delta-from-baseline only. No income amounts are compared.
       </p>
 
-      <div className="grid grid-cols-2 gap-6">
-        {/* Side A */}
-        <div className="rounded-2xl bg-slate-900 border border-slate-800 p-6 flex flex-col items-center gap-4">
-          <div className="w-32 h-32 rounded-full bg-slate-800 border-2 border-emerald-700 border-dashed flex items-center justify-center text-slate-600 text-xs">
-            Creature A
-          </div>
-          <span className="text-white font-semibold">{name}</span>
-          <span className="text-xs text-slate-500">Challenger</span>
-        </div>
-
-        {/* Side B */}
-        <div className="rounded-2xl bg-slate-900 border border-slate-800 p-6 flex flex-col items-center gap-4">
-          <div className="w-32 h-32 rounded-full bg-slate-800 border-2 border-rose-700 border-dashed flex items-center justify-center text-slate-600 text-xs">
-            Creature B
-          </div>
-          <span className="text-slate-400 font-semibold">Select opponent</span>
-          <span className="text-xs text-slate-500">Opponent</span>
-        </div>
+      {/* Match selector */}
+      <div className="flex gap-3 mb-8">
+        {(Object.entries(MATCHUPS) as [MatchupId, typeof MATCHUPS[MatchupId]][]).map(([id, m]) => (
+          <button
+            key={id}
+            onClick={() => selectMatchup(id)}
+            className={`flex-1 rounded-xl px-4 py-3 text-left transition-all border ${
+              activeMatchup === id
+                ? 'border-rose-600 bg-rose-950/40 text-white'
+                : 'border-slate-800 bg-slate-900 text-slate-400 hover:border-slate-600'
+            }`}
+          >
+            <p className="font-semibold text-sm">{m.label}</p>
+            <p className="text-xs mt-0.5 opacity-70">{m.sub}</p>
+          </button>
+        ))}
       </div>
 
-      <div className="mt-10 rounded-2xl bg-slate-900 border border-slate-800 p-6 text-center text-slate-600 text-sm">
-        Battle resolution UI (Phase 8)
+      {/* Match sub-label */}
+      <p className="text-center text-slate-500 text-xs mb-4 font-medium uppercase tracking-widest">
+        {sub}
+      </p>
+
+      {/* Arena — key forces full remount when matchup changes */}
+      <BattleArena
+        key={arenaKey}
+        personaA={a}
+        personaB={b}
+      />
+
+      {/* Explainer footer */}
+      <div className="mt-8 rounded-xl border border-slate-800 bg-slate-900/50 px-5 py-4 text-xs text-slate-500 leading-relaxed">
+        <p className="font-semibold text-slate-400 mb-1">How scoring works</p>
+        <p>
+          Each axis score = 50 + (Δ% from personal baseline × 1.5). A user who improves
+          22% beats one who plateaued — even with 4× lower income. Rewards are cosmetic only.
+        </p>
       </div>
     </div>
   );
