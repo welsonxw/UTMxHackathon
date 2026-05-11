@@ -2,7 +2,7 @@ numpy
 pandas
 scikit-learn
 umap-learn
-hdbscan
+# hdbscan — use sklearn.cluster.HDBSCAN on Python 3.12+ (Cython pkg broken on 3.13)
 firebase-admin
 jupyter
 matplotlib
