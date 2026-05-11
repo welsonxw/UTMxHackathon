@@ -87,8 +87,9 @@ export interface Transaction {
 // ── Simulated delta (the "Simulate this week" payload) ────────────────────────
 
 export interface SimulatedDelta {
-  stats:     StatAxes;
-  newPoints: ConstellationPoint[];
+  stats:            StatAxes;
+  newPoints:        ConstellationPoint[];  // Firestore spec
+  newTransactions?: Transaction[];         // dashboard simulate flow
 }
 
 // ── Full user document (Firestore sub-docs flattened) ─────────────────────────

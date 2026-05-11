@@ -1,55 +1,181 @@
 'use client';
 
+import { useEffect, useRef, useState, useCallback } from 'react';
+import dynamic from 'next/dynamic';
+import { doc, onSnapshot } from 'firebase/firestore';
+
 import { usePersona } from '@/lib/persona-context';
-import { PERSONAS } from '@/lib/types';
+import { db } from '@/lib/firebase';
+import { PERSONA_FALLBACK, type PersonaFallback } from '@/lib/personas-fallback';
+import { PERSONAS, type StatAxes, type Transaction } from '@/lib/types';
+
+import StatBars      from '@/components/StatBars';
+import SimulateButton from '@/components/SimulateButton';
+
+// SSR-safe: both use browser APIs
+const Creature       = dynamic(() => import('@/components/Creature'),       { ssr: false });
+const Constellation  = dynamic(() => import('@/components/Constellation'),  { ssr: false });
+
+// How long until the simulate animation finishes (8 points × 250ms + 800ms buffer)
+const SIM_DURATION_MS = 8 * 250 + 800;
+
+// ── Tier badge ─────────────────────────────────────────────────────────────────
+
+const TIER_STYLE: Record<'B40' | 'T20', string> = {
+  B40: 'bg-emerald-900 text-emerald-300 border-emerald-800',
+  T20: 'bg-violet-900  text-violet-300  border-violet-800',
+};
 
 export default function Dashboard() {
   const { activePersona } = usePersona();
-  const { name, incomeTier } = PERSONAS[activePersona];
+  const { incomeRM } = PERSONAS[activePersona];
+
+  // ── Data state ──────────────────────────────────────────────────────────────
+  const [data, setData]               = useState<PersonaFallback>(PERSONA_FALLBACK[activePersona]);
+  const [displayStats, setDisplayStats] = useState<StatAxes>(PERSONA_FALLBACK[activePersona].currentWeekStats);
+  const [transactions, setTransactions] = useState<Transaction[]>(PERSONA_FALLBACK[activePersona].transactions);
+  const [animatingIds, setAnimatingIds] = useState<string[]>([]);
+
+  // ── Simulate state ──────────────────────────────────────────────────────────
+  const [isSimulated, setIsSimulated]   = useState(false);
+  const [isAnimating, setIsAnimating]   = useState(false);
+  const clearTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  // ── Load / reset when persona changes ──────────────────────────────────────
+  useEffect(() => {
+    // Cancel any in-flight simulate timer
+    if (clearTimerRef.current) clearTimeout(clearTimerRef.current);
+
+    const fallback = PERSONA_FALLBACK[activePersona];
+
+    // Instant load from local fallback (never shows loading spinner)
+    setData(fallback);
+    setDisplayStats(fallback.currentWeekStats);
+    setTransactions(fallback.transactions);
+    setAnimatingIds([]);
+    setIsSimulated(false);
+    setIsAnimating(false);
+
+    // Try Firestore — silently upgrade if available
+    // TODO: Remove TODO flag once Firestore seeded by Phase 3 pipeline.
+    let unsubscribe: (() => void) | null = null;
+    try {
+      unsubscribe = onSnapshot(
+        doc(db, 'users', activePersona),
+        (snap) => {
+          if (!snap.exists()) return;
+          const d = snap.data() as Partial<PersonaFallback>;
+          if (d.currentWeekStats) setDisplayStats(d.currentWeekStats);
+          if (d.transactions)     setTransactions(d.transactions);
+          // Merge remaining fields into data
+          setData((prev) => ({ ...prev, ...d }));
+        },
+        () => { /* Firestore unavailable — fallback already loaded */ },
+      );
+    } catch {
+      // Firebase not configured — local fallback already shown
+    }
+
+    return () => unsubscribe?.();
+  }, [activePersona]);
+
+  // ── Simulate handler ────────────────────────────────────────────────────────
+  const handleSimulate = useCallback(() => {
+    if (isSimulated || isAnimating) return;
+    setIsAnimating(true);
+
+    const delta    = data.simulatedDelta;
+    const newTxs   = delta.newTransactions ?? [];
+    const newIds   = newTxs.map((t) => t.transactionId);
+
+    // 1. Add new transactions to constellation → they animate in
+    setTransactions((prev) => [...prev, ...newTxs]);
+    setAnimatingIds(newIds);
+
+    // 2. Swap stat bars after a short delay (let constellation start first)
+    setTimeout(() => setDisplayStats(delta.stats), 300);
+
+    // 3. Finish
+    clearTimerRef.current = setTimeout(() => {
+      setAnimatingIds([]);
+      setIsAnimating(false);
+      setIsSimulated(true);
+    }, SIM_DURATION_MS);
+  }, [data, isSimulated, isAnimating]);
 
   return (
-    <div className="max-w-5xl mx-auto px-6 py-10">
-      <div className="mb-8">
-        <h2 className="text-3xl font-bold text-white">{name}</h2>
-        <p className="text-slate-400 mt-1">
-          Income tier: <span className="text-emerald-400 font-medium">{incomeTier}</span>
-        </p>
+    <div className="min-h-[calc(100vh-4rem)] bg-slate-950 px-6 py-8">
+
+      {/* ── Header row ── */}
+      <div className="flex items-center gap-3 mb-8">
+        <h2 className="text-2xl font-bold text-white">{data.name}</h2>
+        <span className={`text-xs px-2.5 py-0.5 rounded-full font-semibold border ${TIER_STYLE[data.incomeTier]}`}>
+          {data.incomeTier}
+        </span>
+        <span className="text-slate-500 text-sm">
+          RM {incomeRM.toLocaleString()}/mo
+        </span>
+        {data.riskFlags.length > 0 && (
+          <span className="text-xs px-2 py-0.5 rounded-full bg-rose-900/60 text-rose-300 border border-rose-800 animate-pulse">
+            ⚠ {data.riskFlags[0].type.replace(/_/g, ' ')}
+          </span>
+        )}
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        {/* Creature placeholder */}
-        <div className="rounded-2xl bg-slate-900 border border-slate-800 p-6 flex flex-col items-center justify-center min-h-[320px]">
-          <div className="w-40 h-40 rounded-full bg-slate-800 border-2 border-dashed border-slate-700 flex items-center justify-center text-slate-600 text-sm">
-            Creature (Phase 5)
+      {/* ── Main 3-column grid ── */}
+      <div className="grid grid-cols-1 lg:grid-cols-[280px_1fr_300px] gap-6 items-start">
+
+        {/* Left: Creature */}
+        <div className="flex flex-col items-center gap-4">
+          <div className="rounded-2xl bg-slate-900 border border-slate-800 p-4 w-full flex justify-center">
+            <Creature params={data.creatureParams} size={252} />
           </div>
+          {data.riskFlags.length > 0 && (
+            <div className="w-full rounded-xl bg-rose-950/40 border border-rose-900/50 px-4 py-3 text-xs text-rose-300 leading-relaxed">
+              <p className="font-semibold mb-1">⚠ Risk detected</p>
+              {data.riskFlags.map((f) => (
+                <p key={f.type} className="text-rose-400/80">
+                  {f.type.replace(/_/g, ' ')} — {f.severity} severity
+                </p>
+              ))}
+            </div>
+          )}
         </div>
 
-        {/* Constellation placeholder */}
-        <div className="rounded-2xl bg-slate-900 border border-slate-800 p-6 flex flex-col items-center justify-center min-h-[320px]">
-          <div className="w-full h-48 rounded-xl bg-slate-800 border-2 border-dashed border-slate-700 flex items-center justify-center text-slate-600 text-sm">
-            Constellation (Phase 6)
-          </div>
+        {/* Centre: Constellation */}
+        <div className="rounded-2xl bg-slate-900 border border-slate-800 p-4 flex flex-col items-center gap-3">
+          <p className="text-xs font-semibold uppercase tracking-widest text-slate-500 self-start">
+            Behaviour Constellation
+          </p>
+          <Constellation
+            transactions={transactions}
+            newTransactionIds={animatingIds}
+            width={460}
+            height={460}
+          />
+          <p className="text-xs text-slate-600 self-start">
+            Angle = hour of day · Radius = log(RM) · Color = category
+          </p>
         </div>
 
-        {/* Stat bars placeholder */}
-        <div className="rounded-2xl bg-slate-900 border border-slate-800 p-6 lg:col-span-2">
-          <h3 className="text-lg font-semibold text-white mb-4">5-Axis Discipline Profile</h3>
-          <div className="space-y-3">
-            {['Restraint', 'Consistency', 'Resilience', 'Foresight', 'Recovery'].map((axis) => (
-              <div key={axis} className="flex items-center gap-3">
-                <span className="w-24 text-sm text-slate-400 shrink-0">{axis}</span>
-                <div className="flex-1 h-2 bg-slate-800 rounded-full">
-                  <div className="h-2 rounded-full bg-emerald-600 w-1/2" />
-                </div>
-                <span className="text-sm text-slate-500 w-8 text-right">—</span>
-              </div>
-            ))}
+        {/* Right: Stat bars + simulate button */}
+        <div className="flex flex-col gap-6">
+          <div className="rounded-2xl bg-slate-900 border border-slate-800 p-5">
+            <div className="flex items-center justify-between mb-5">
+              <p className="text-xs font-semibold uppercase tracking-widest text-slate-500">
+                5-Axis Profile
+              </p>
+              <p className="text-xs text-slate-600">vs. 90-day baseline ↓</p>
+            </div>
+            <StatBars current={displayStats} baseline={data.baselineStats} />
           </div>
-          <div className="mt-6">
-            <button className="px-5 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-semibold text-sm transition-colors">
-              Simulate This Week (Phase 7)
-            </button>
-          </div>
+
+          <SimulateButton
+            onSimulate={handleSimulate}
+            isSimulated={isSimulated}
+            isAnimating={isAnimating}
+            personaName={data.name}
+          />
         </div>
       </div>
     </div>
