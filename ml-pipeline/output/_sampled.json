@@ -1,0 +1,1210 @@
+{
+  "aisyah": [
+    {
+      "transactionId": "1027c4d1-c386-bbc4-cd61-3e30d8f16adf",
+      "accountId": "aisyah_001",
+      "amount": 2200,
+      "category": "salary",
+      "merchant": "Mydin HR",
+      "timestamp": "2025-01-01T09:08:36",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "75a89294-c2cd-789a-3802-08a9ad45f23d",
+      "accountId": "aisyah_001",
+      "amount": 11.47,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-01-03T07:22:14",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "c69d4bd8-b3fa-7aa7-e1fa-b9d78c7e134f",
+      "accountId": "aisyah_001",
+      "amount": 62.13,
+      "category": "transport_tng",
+      "merchant": "Touch n Go eWallet",
+      "timestamp": "2025-01-06T11:11:23",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "91eb79fa-5d5f-576c-deb8-fc4c7b297d0b",
+      "accountId": "aisyah_001",
+      "amount": 50,
+      "category": "savings_transfer",
+      "merchant": "GXBank Savings",
+      "timestamp": "2025-01-10T09:27:03",
+      "isRecurring": true,
+      "transactionType": "transfer"
+    },
+    {
+      "transactionId": "c16e2284-c10f-aa40-03ba-33db73f7ba8e",
+      "accountId": "aisyah_001",
+      "amount": 57.74,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-12T12:55:01",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "d50e0097-8b71-99cd-6d39-eb43ad9cedde",
+      "accountId": "aisyah_001",
+      "amount": 18,
+      "category": "subscription",
+      "merchant": "Netflix",
+      "timestamp": "2025-01-15T09:45:32",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "e023033d-364e-433f-f7c8-82f4202cc828",
+      "accountId": "aisyah_001",
+      "amount": 24.46,
+      "category": "food_mamak",
+      "merchant": "Mamak Pelita",
+      "timestamp": "2025-01-16T17:47:19",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "6de2b33b-56ce-f8ec-2298-bdb1c85f0d46",
+      "accountId": "aisyah_001",
+      "amount": 12.01,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-01-18T14:51:36",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "fdc1786b-ddbd-358f-6156-c4df12bccdcb",
+      "accountId": "aisyah_001",
+      "amount": 42.05,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-21T14:02:26",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "f6f62c28-e927-db48-6f62-e63a1a5356b5",
+      "accountId": "aisyah_001",
+      "amount": 38.04,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-24T13:47:54",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "3a389b09-f0d3-fa5c-56c1-1669a4ba3161",
+      "accountId": "aisyah_001",
+      "amount": 31.23,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-01-28T12:41:36",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "b59641d2-1b5c-56d3-4e3d-4d0f51dd5d5c",
+      "accountId": "aisyah_001",
+      "amount": 9.05,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-01-31T07:52:55",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "0c6e5973-286b-ef29-8999-18a76ec15d38",
+      "accountId": "aisyah_001",
+      "amount": 2200,
+      "category": "salary",
+      "merchant": "Mydin HR",
+      "timestamp": "2025-02-01T09:11:19",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "eba1a9d3-a61a-59e3-e49d-f6bb803af506",
+      "accountId": "aisyah_001",
+      "amount": 11.4,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-02-04T07:33:20",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "bc85e5de-b386-d25c-b387-42ad2a4926f0",
+      "accountId": "aisyah_001",
+      "amount": 50,
+      "category": "savings_transfer",
+      "merchant": "GXBank Savings",
+      "timestamp": "2025-02-07T09:35:23",
+      "isRecurring": true,
+      "transactionType": "transfer"
+    },
+    {
+      "transactionId": "e8acabff-9f55-c5fc-2057-2aeb70293815",
+      "accountId": "aisyah_001",
+      "amount": 57.63,
+      "category": "utilities",
+      "merchant": "Maxis",
+      "timestamp": "2025-02-10T07:58:20",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "4be1b248-8b97-ef45-0362-1f97bf4cc645",
+      "accountId": "aisyah_001",
+      "amount": 8.76,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-02-13T06:07:36",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "1cf3d179-7e07-50ea-9248-4194aef4259c",
+      "accountId": "aisyah_001",
+      "amount": 34.01,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-02-14T14:50:46",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "a3ee54d4-3f64-c50c-beea-ac97fcd58c0f",
+      "accountId": "aisyah_001",
+      "amount": 70.99,
+      "category": "transport_tng",
+      "merchant": "Touch n Go eWallet",
+      "timestamp": "2025-02-17T11:04:31",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "714699bd-a826-e5f1-1126-d71a5aece68f",
+      "accountId": "aisyah_001",
+      "amount": 16.48,
+      "category": "food_mamak",
+      "merchant": "Mamak Pelita",
+      "timestamp": "2025-02-20T21:27:04",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "25ef2114-ba6e-736c-eed4-b1f0e9c3deee",
+      "accountId": "aisyah_001",
+      "amount": 13.13,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-02-25T10:28:37",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "f9333f74-2b29-35f2-c028-23ec60bdadce",
+      "accountId": "aisyah_001",
+      "amount": 12.22,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-02-27T13:31:28",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "d3005630-e149-a837-28fa-361a6661b877",
+      "accountId": "aisyah_001",
+      "amount": 2200,
+      "category": "salary",
+      "merchant": "Mydin HR",
+      "timestamp": "2025-03-01T09:58:12",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "a2b73a66-a440-1dab-4285-0da8f8375d93",
+      "accountId": "aisyah_001",
+      "amount": 14.48,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-03T14:40:17",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "5ec8e9d7-8049-e97a-781b-512083497471",
+      "accountId": "aisyah_001",
+      "amount": 15.79,
+      "category": "food_mamak",
+      "merchant": "Mamak Pelita",
+      "timestamp": "2025-03-06T17:58:52",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "7b2cce17-958a-3855-e54e-1ad1f4cfd336",
+      "accountId": "aisyah_001",
+      "amount": 33.2,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-03-09T16:50:25",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "7442a8cc-7acd-7a45-4794-ab91fabab7b5",
+      "accountId": "aisyah_001",
+      "amount": 49.07,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-03-11T16:04:28",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "389c1ccf-afef-1ac1-4008-39a925fa97dd",
+      "accountId": "aisyah_001",
+      "amount": 50,
+      "category": "savings_transfer",
+      "merchant": "GXBank Savings",
+      "timestamp": "2025-03-14T09:10:01",
+      "isRecurring": true,
+      "transactionType": "transfer"
+    },
+    {
+      "transactionId": "d73ecd63-d064-6cf9-129c-03b0b9cf3dde",
+      "accountId": "aisyah_001",
+      "amount": 66.33,
+      "category": "transport_tng",
+      "merchant": "Touch n Go eWallet",
+      "timestamp": "2025-03-17T07:51:30",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "8ac32bbd-6953-e9e8-868f-815448525e8a",
+      "accountId": "aisyah_001",
+      "amount": 45.53,
+      "category": "utilities",
+      "merchant": "TNB",
+      "timestamp": "2025-03-20T11:36:35",
+      "isRecurring": true,
+      "transactionType": "debit"
+    }
+  ],
+  "daniel": [
+    {
+      "transactionId": "bc688778-2b49-1044-d5e3-41245c6e4337",
+      "accountId": "daniel_001",
+      "amount": 18,
+      "category": "subscription",
+      "merchant": "Netflix",
+      "timestamp": "2025-01-01T06:05:05",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "d4c0dca8-b4c9-e755-cc9c-3adcf515a823",
+      "accountId": "daniel_001",
+      "amount": 36.59,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-01-03T20:19:19",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "3a6b86a7-975b-54a3-1497-024640332b06",
+      "accountId": "daniel_001",
+      "amount": 19.94,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-01-06T11:28:04",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "b9387e62-0b0d-dfd1-c6f7-5c81786a7648",
+      "accountId": "daniel_001",
+      "amount": 58.19,
+      "category": "food_mamak",
+      "merchant": "Mamak Pelita",
+      "timestamp": "2025-01-09T06:39:42",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "a5dea412-b494-9aea-6982-5e3fefc9998b",
+      "accountId": "daniel_001",
+      "amount": 17.41,
+      "category": "food_mamak",
+      "merchant": "McDonald's Malaysia",
+      "timestamp": "2025-01-11T14:45:46",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "5025ee4c-d309-f0de-420b-27f213a3878d",
+      "accountId": "daniel_001",
+      "amount": 28.79,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-01-15T11:58:19",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "5e102c20-129a-70f3-abb0-3d06a311fedd",
+      "accountId": "daniel_001",
+      "amount": 36.27,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-01-18T19:34:39",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "1b203166-40c1-19e0-0243-b215b51397ef",
+      "accountId": "daniel_001",
+      "amount": 69.33,
+      "category": "shopping_online_shopee",
+      "merchant": "Shopee",
+      "timestamp": "2025-01-20T23:29:51",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "8b560730-b1a1-7983-a2c6-4f7523f26e68",
+      "accountId": "daniel_001",
+      "amount": 21.5,
+      "category": "food_mamak",
+      "merchant": "McDonald's Malaysia",
+      "timestamp": "2025-01-23T11:12:06",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "63224d94-0dc7-6925-00ea-cc9cacad6e51",
+      "accountId": "daniel_001",
+      "amount": 25.5,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-01-26T06:38:34",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "b82f0e79-f76a-98c5-c288-6bbf97d3b337",
+      "accountId": "daniel_001",
+      "amount": 18.64,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-01-28T10:02:01",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "b4867fe2-4056-0a08-05e5-7a2d25482047",
+      "accountId": "daniel_001",
+      "amount": 32.43,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-01-30T13:54:22",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "ecc11158-d561-1639-bf66-107b2dbac286",
+      "accountId": "daniel_001",
+      "amount": 130.63,
+      "category": "shopping_online_shopee",
+      "merchant": "Shopee",
+      "timestamp": "2025-02-01T23:46:25",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "e13b4ba8-ce10-8368-2494-c0bd2d0467c8",
+      "accountId": "daniel_001",
+      "amount": 32.09,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-02-04T17:04:29",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "a8229633-a644-05c8-693a-8b7d35c3a3d5",
+      "accountId": "daniel_001",
+      "amount": 297.23,
+      "category": "shopping_online_shopee",
+      "merchant": "Shopee",
+      "timestamp": "2025-02-07T22:42:27",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "6cbd8cd5-86f1-33c4-75f7-dc6e9398bc43",
+      "accountId": "daniel_001",
+      "amount": 27.6,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-02-11T20:18:50",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "5db99d6b-07c7-31f6-0570-d864272cf378",
+      "accountId": "daniel_001",
+      "amount": 63.64,
+      "category": "shopping_online_shopee",
+      "merchant": "Shopee",
+      "timestamp": "2025-02-14T22:34:37",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "6cf16ac9-9861-8cc2-ff24-96856c1af0ca",
+      "accountId": "daniel_001",
+      "amount": 269.95,
+      "category": "shopping_online_lazada",
+      "merchant": "Lazada",
+      "timestamp": "2025-02-17T23:58:39",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "476c52e4-b1b4-ff82-e4a8-836f3d86ccee",
+      "accountId": "daniel_001",
+      "amount": 185.43,
+      "category": "utilities",
+      "merchant": "TNB",
+      "timestamp": "2025-02-20T08:43:04",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "7da56266-bff7-03ce-8613-b181e1a997fb",
+      "accountId": "daniel_001",
+      "amount": 106.28,
+      "category": "shopping_online_shopee",
+      "merchant": "Shopee",
+      "timestamp": "2025-02-22T22:43:30",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "f2c0123b-3744-c221-3755-52c0596445c5",
+      "accountId": "daniel_001",
+      "amount": 25.42,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-02-26T18:38:41",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "d404614b-6bd3-0207-dc7d-f247ac45bf1e",
+      "accountId": "daniel_001",
+      "amount": 32.08,
+      "category": "food_mamak",
+      "merchant": "Old Town White Coffee",
+      "timestamp": "2025-03-01T13:25:02",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "65381699-2b7b-8ae2-57f7-05e8a5ac1b54",
+      "accountId": "daniel_001",
+      "amount": 25.88,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-03-04T06:04:35",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "06e504f8-16f7-b37e-d515-d3b896c9b5e6",
+      "accountId": "daniel_001",
+      "amount": 31.7,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-06T16:17:34",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "3ccf7d60-8c94-d9f2-2180-9bea3e116404",
+      "accountId": "daniel_001",
+      "amount": 39.74,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-09T21:45:18",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "b8c0861f-6680-9c45-3d8a-3d03d527b904",
+      "accountId": "daniel_001",
+      "amount": 36.39,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-12T16:03:48",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "450aad68-5306-8e36-985d-8970cb6b11b3",
+      "accountId": "daniel_001",
+      "amount": 21.33,
+      "category": "transport_grab",
+      "merchant": "Grab",
+      "timestamp": "2025-03-15T10:18:44",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "770da5e4-db62-636d-b075-986c4903c0f5",
+      "accountId": "daniel_001",
+      "amount": 28.02,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-18T20:53:35",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "ba968abd-fdc9-a8b6-0290-610b46dd7011",
+      "accountId": "daniel_001",
+      "amount": 33.19,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-21T21:36:24",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "48baf8ae-bb6a-4902-d0c0-f516337036a5",
+      "accountId": "daniel_001",
+      "amount": 35.97,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-23T21:31:01",
+      "isRecurring": false,
+      "transactionType": "debit"
+    }
+  ],
+  "mei_ling": [
+    {
+      "transactionId": "10c67fd9-94b2-b8fd-a02f-34a6795b929e",
+      "accountId": "mei_ling_001",
+      "amount": 18.16,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-01-01T14:58:38",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "daf0105b-a06c-05a1-c76a-bf436fa84dca",
+      "accountId": "mei_ling_001",
+      "amount": 9.63,
+      "category": "food_mamak",
+      "merchant": "Mamak Pelita",
+      "timestamp": "2025-01-04T18:16:43",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "16a91f39-7bc7-3a83-fd63-ed5ba385ac4b",
+      "accountId": "mei_ling_001",
+      "amount": 293.98,
+      "category": "salary",
+      "merchant": "Grab Earnings",
+      "timestamp": "2025-01-07T18:30:54",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "b866517e-a260-db3c-6e62-91d24573f541",
+      "accountId": "mei_ling_001",
+      "amount": 62.19,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-09T23:51:32",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "b2b47ae7-a648-2fe6-6f6b-8421ad9593b4",
+      "accountId": "mei_ling_001",
+      "amount": 22.06,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-01-13T13:20:11",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "7a33c67c-0131-83e3-3317-16d827ef79cb",
+      "accountId": "mei_ling_001",
+      "amount": 600,
+      "category": "flexicredit_drawdown",
+      "merchant": "GXBank FlexiCredit",
+      "timestamp": "2025-01-16T06:58:26",
+      "isRecurring": false,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "8a7db67f-dc96-0f12-f8d4-5cb940a230e6",
+      "accountId": "mei_ling_001",
+      "amount": 23.7,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-01-19T12:21:08",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "50884d44-2833-e1d5-50de-93987d7015fc",
+      "accountId": "mei_ling_001",
+      "amount": 54.14,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-21T19:32:32",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "efbd6b85-0731-323e-e132-01b6215fa8a3",
+      "accountId": "mei_ling_001",
+      "amount": 43.5,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-23T22:14:27",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "1f0c6f07-da30-5f2c-d76e-e016576b7da1",
+      "accountId": "mei_ling_001",
+      "amount": 135.66,
+      "category": "shopping_online_shopee",
+      "merchant": "Shopee",
+      "timestamp": "2025-01-25T22:52:01",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "299f1078-263a-521c-e336-d0f4e5bc175c",
+      "accountId": "mei_ling_001",
+      "amount": 64.54,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-01-28T20:41:25",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "52715ad0-3d23-a847-5c47-c90691e43dd0",
+      "accountId": "mei_ling_001",
+      "amount": 287.24,
+      "category": "salary",
+      "merchant": "Grab Earnings",
+      "timestamp": "2025-01-30T21:12:11",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "b46977d0-9f35-5e74-2feb-67af2331df81",
+      "accountId": "mei_ling_001",
+      "amount": 281.67,
+      "category": "salary",
+      "merchant": "Grab Earnings",
+      "timestamp": "2025-02-01T19:49:16",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "98f15b0f-a64b-747b-b871-3476a51d4257",
+      "accountId": "mei_ling_001",
+      "amount": 19.18,
+      "category": "food_mamak",
+      "merchant": "Mamak Pelita",
+      "timestamp": "2025-02-04T18:58:21",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "ba2fa235-e8f2-3ed7-c76b-6f009079ccab",
+      "accountId": "mei_ling_001",
+      "amount": 11.25,
+      "category": "food_mamak",
+      "merchant": "Mamak Pelita",
+      "timestamp": "2025-02-06T17:43:07",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "9180943b-2b9a-d524-8710-df9c8b72c34a",
+      "accountId": "mei_ling_001",
+      "amount": 423.16,
+      "category": "salary",
+      "merchant": "Grab Earnings",
+      "timestamp": "2025-02-08T21:51:12",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "56f26ff3-ee08-da3d-04d6-a38789f40abf",
+      "accountId": "mei_ling_001",
+      "amount": 48,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-02-11T23:04:31",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "23a677bc-0709-1a3c-a2ff-efac2b141fa1",
+      "accountId": "mei_ling_001",
+      "amount": 10.33,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-02-15T16:25:32",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "466c38d5-4a72-2829-ba48-fda3ceb5c897",
+      "accountId": "mei_ling_001",
+      "amount": 44.65,
+      "category": "transport_tng",
+      "merchant": "Touch n Go eWallet",
+      "timestamp": "2025-02-17T06:38:03",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "172d43c2-ae4b-09d0-07c1-da281ad3610a",
+      "accountId": "mei_ling_001",
+      "amount": 64.12,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-02-18T23:39:00",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "a4730121-cd24-e42a-d7f9-c55999c6793a",
+      "accountId": "mei_ling_001",
+      "amount": 320.1,
+      "category": "medical",
+      "merchant": "Klinik Kesihatan",
+      "timestamp": "2025-02-22T12:20:15",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "56a5fdb4-1ae1-0e50-ea6b-c30bf4a82ad1",
+      "accountId": "mei_ling_001",
+      "amount": 48.5,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-02-22T20:25:50",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "1c66db05-c71e-93f4-7212-9d8aa93c34a2",
+      "accountId": "mei_ling_001",
+      "amount": 447.4,
+      "category": "salary",
+      "merchant": "Grab Earnings",
+      "timestamp": "2025-02-25T20:25:38",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "6eb167c0-7de3-9b45-46a6-d78a35141309",
+      "accountId": "mei_ling_001",
+      "amount": 33.07,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-03-01T19:12:47",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "08fddce5-8d79-cbf2-faaf-30f15ce1f861",
+      "accountId": "mei_ling_001",
+      "amount": 21.55,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-04T15:22:50",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "07831298-0b44-1387-56eb-a71742a69fbc",
+      "accountId": "mei_ling_001",
+      "amount": 448.79,
+      "category": "salary",
+      "merchant": "Grab Earnings",
+      "timestamp": "2025-03-06T21:26:46",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "48751db6-73d8-17ec-416d-4b17cd8de1e3",
+      "accountId": "mei_ling_001",
+      "amount": 122.9,
+      "category": "shopping_online_shopee",
+      "merchant": "Shopee",
+      "timestamp": "2025-03-08T23:29:17",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "0919e6f9-482d-b7f8-8e20-1852647d2d09",
+      "accountId": "mei_ling_001",
+      "amount": 40.71,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-03-11T21:20:39",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "5ef2e9a7-f076-8022-01e6-94c331257335",
+      "accountId": "mei_ling_001",
+      "amount": 15.29,
+      "category": "food_grab",
+      "merchant": "Grab Food",
+      "timestamp": "2025-03-13T16:04:59",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "91a16b4d-7143-d96c-c82d-0182daa3c742",
+      "accountId": "mei_ling_001",
+      "amount": 188.54,
+      "category": "salary",
+      "merchant": "Grab Earnings",
+      "timestamp": "2025-03-15T20:33:47",
+      "isRecurring": true,
+      "transactionType": "credit"
+    }
+  ],
+  "hafiz": [
+    {
+      "transactionId": "7a97c643-6564-12a9-b8a1-abcd1a6916c7",
+      "accountId": "hafiz_001",
+      "amount": 7200,
+      "category": "salary",
+      "merchant": "Hospital HR",
+      "timestamp": "2025-01-01T09:15:19",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "f165c8ce-36e2-f24b-4300-0de01b2ed40e",
+      "accountId": "hafiz_001",
+      "amount": 800,
+      "category": "family_transfer",
+      "merchant": "Maybank Transfer",
+      "timestamp": "2025-01-03T08:11:52",
+      "isRecurring": true,
+      "transactionType": "transfer"
+    },
+    {
+      "transactionId": "793d0e45-3f50-8249-2d83-a8233fb62d2c",
+      "accountId": "hafiz_001",
+      "amount": 321.17,
+      "category": "utilities",
+      "merchant": "SRK Penang",
+      "timestamp": "2025-01-05T11:24:32",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "d0060cc5-4278-c261-4e1b-cb383bb4a570",
+      "accountId": "hafiz_001",
+      "amount": 79.95,
+      "category": "transport_tng",
+      "merchant": "Touch n Go eWallet",
+      "timestamp": "2025-01-06T09:28:10",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "3cc75f3e-dcb2-85f8-9d8c-f4d4950b16ff",
+      "accountId": "hafiz_001",
+      "amount": 103.08,
+      "category": "utilities",
+      "merchant": "TNB",
+      "timestamp": "2025-01-10T07:17:48",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "61b2ceba-4003-1ad6-22ed-93874ac034cf",
+      "accountId": "hafiz_001",
+      "amount": 65.87,
+      "category": "utilities",
+      "merchant": "Celcom",
+      "timestamp": "2025-01-12T07:57:28",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "cde9d231-c8a3-8e7b-5d7d-255f2b68beef",
+      "accountId": "hafiz_001",
+      "amount": 91.12,
+      "category": "food_mamak",
+      "merchant": "Old Town White Coffee",
+      "timestamp": "2025-01-12T14:02:29",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "d5b8c255-1f4d-4cc5-091b-5ffbff651b90",
+      "accountId": "hafiz_001",
+      "amount": 160.65,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-14T16:15:20",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "50842aaa-ed93-9512-e41a-3f3d0d204649",
+      "accountId": "hafiz_001",
+      "amount": 177.23,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-18T14:09:20",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "dfb1c3cd-ee0f-bdfd-35fe-f00d6e1b8793",
+      "accountId": "hafiz_001",
+      "amount": 89,
+      "category": "utilities",
+      "merchant": "Maxis",
+      "timestamp": "2025-01-20T09:24:05",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "035b31e4-2820-46a9-ec1f-ea7f3610e451",
+      "accountId": "hafiz_001",
+      "amount": 174.65,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-01-25T13:51:00",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "98304a24-b207-8093-08c0-3a191438a218",
+      "accountId": "hafiz_001",
+      "amount": 89.22,
+      "category": "transport_tng",
+      "merchant": "Touch n Go eWallet",
+      "timestamp": "2025-01-27T10:28:01",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "833189cb-5daa-78bc-e2a5-d4ffcc60e673",
+      "accountId": "hafiz_001",
+      "amount": 7200,
+      "category": "salary",
+      "merchant": "Hospital HR",
+      "timestamp": "2025-02-01T09:58:39",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "29ae9cd7-dfd1-4872-5f21-5ed42ad93787",
+      "accountId": "hafiz_001",
+      "amount": 1500,
+      "category": "savings_transfer",
+      "merchant": "Maybank Savings",
+      "timestamp": "2025-02-02T08:51:35",
+      "isRecurring": true,
+      "transactionType": "transfer"
+    },
+    {
+      "transactionId": "7bf7c5ab-99da-e697-b730-afe8c945ba89",
+      "accountId": "hafiz_001",
+      "amount": 800,
+      "category": "family_transfer",
+      "merchant": "Maybank Transfer",
+      "timestamp": "2025-02-03T08:07:31",
+      "isRecurring": true,
+      "transactionType": "transfer"
+    },
+    {
+      "transactionId": "917eabe5-e952-0b19-c84e-d939778f3a8c",
+      "accountId": "hafiz_001",
+      "amount": 167.67,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-02-04T16:58:58",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "5463ca58-2dff-38da-e77f-3fbfefaa0591",
+      "accountId": "hafiz_001",
+      "amount": 179.39,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-02-08T12:25:41",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "bec58982-e2e6-45b0-ace6-c9377aa84ee9",
+      "accountId": "hafiz_001",
+      "amount": 146.9,
+      "category": "utilities",
+      "merchant": "TNB",
+      "timestamp": "2025-02-10T06:11:41",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "e62607b8-73ae-aa7e-ff17-4aee879e66f0",
+      "accountId": "hafiz_001",
+      "amount": 130.97,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-02-11T14:34:40",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "f37911b8-6779-66ba-5d42-e08fd374d44a",
+      "accountId": "hafiz_001",
+      "amount": 70.8,
+      "category": "utilities",
+      "merchant": "Celcom",
+      "timestamp": "2025-02-12T11:35:39",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "29cf5074-0c00-9fdd-f2ab-6e3f21f4dea7",
+      "accountId": "hafiz_001",
+      "amount": 177.79,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-02-15T13:04:19",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "2c1d71a8-b3b5-2c42-a1aa-036ee3e63ae1",
+      "accountId": "hafiz_001",
+      "amount": 93.94,
+      "category": "transport_tng",
+      "merchant": "Touch n Go eWallet",
+      "timestamp": "2025-02-17T11:18:39",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "898ff54d-642d-c724-83cc-5736418dd631",
+      "accountId": "hafiz_001",
+      "amount": 89,
+      "category": "utilities",
+      "merchant": "Maxis",
+      "timestamp": "2025-02-20T07:55:56",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "b7f26d90-e938-8e6f-7a09-3fcf02347681",
+      "accountId": "hafiz_001",
+      "amount": 184.86,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-02-22T13:14:35",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "0987a19d-bcf2-e668-99a0-36a769d54fcf",
+      "accountId": "hafiz_001",
+      "amount": 65.26,
+      "category": "transport_tng",
+      "merchant": "Touch n Go eWallet",
+      "timestamp": "2025-02-24T11:53:57",
+      "isRecurring": true,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "09f9d6dd-3ff7-ce03-b604-8259990e3052",
+      "accountId": "hafiz_001",
+      "amount": 7200,
+      "category": "salary",
+      "merchant": "Hospital HR",
+      "timestamp": "2025-03-01T09:34:52",
+      "isRecurring": true,
+      "transactionType": "credit"
+    },
+    {
+      "transactionId": "39e3854c-d807-0044-124d-54d1003b13d5",
+      "accountId": "hafiz_001",
+      "amount": 1500,
+      "category": "savings_transfer",
+      "merchant": "Maybank Savings",
+      "timestamp": "2025-03-02T08:32:53",
+      "isRecurring": true,
+      "transactionType": "transfer"
+    },
+    {
+      "transactionId": "67129533-9ad4-92ff-a1d7-35a163721f64",
+      "accountId": "hafiz_001",
+      "amount": 800,
+      "category": "family_transfer",
+      "merchant": "Maybank Transfer",
+      "timestamp": "2025-03-03T08:19:54",
+      "isRecurring": true,
+      "transactionType": "transfer"
+    },
+    {
+      "transactionId": "6fed5666-e312-dffb-7a86-2cef04981190",
+      "accountId": "hafiz_001",
+      "amount": 170.46,
+      "category": "food_groceries",
+      "merchant": "Mydin",
+      "timestamp": "2025-03-04T14:11:13",
+      "isRecurring": false,
+      "transactionType": "debit"
+    },
+    {
+      "transactionId": "40ebf5e5-eedd-3787-ef34-bbca362ba7c0",
+      "accountId": "hafiz_001",
+      "amount": 193.52,
+      "category": "food_groceries",
+      "merchant": "Tesco",
+      "timestamp": "2025-03-08T16:05:44",
+      "isRecurring": false,
+      "transactionType": "debit"
+    }
+  ]
+}
