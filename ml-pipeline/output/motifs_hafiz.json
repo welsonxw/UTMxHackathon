@@ -1,0 +1,75 @@
+{
+  "top_motifs": [
+    {
+      "motif": "transport_tng|50-200|morning|True -> food_groceries|50-200|afternoon|False -> salary|>1000|morning|True -> food_groceries|50-200|afternoon|False -> savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True",
+      "k": 7,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 404394.834
+    },
+    {
+      "motif": "food_groceries|50-200|afternoon|False -> salary|>1000|morning|True -> food_groceries|50-200|afternoon|False -> savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True -> transport_tng|50-200|morning|True",
+      "k": 7,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 404394.834
+    },
+    {
+      "motif": "salary|>1000|morning|True -> food_groceries|50-200|afternoon|False -> savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True -> transport_tng|50-200|morning|True -> food_groceries|50-200|afternoon|False",
+      "k": 7,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 404394.834
+    },
+    {
+      "motif": "food_groceries|50-200|afternoon|False -> savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True -> transport_tng|50-200|morning|True -> food_groceries|50-200|afternoon|False -> utilities|200-1000|morning|True",
+      "k": 7,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 404394.834
+    },
+    {
+      "motif": "savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True -> transport_tng|50-200|morning|True -> food_groceries|50-200|afternoon|False -> utilities|200-1000|morning|True -> food_groceries|50-200|afternoon|False",
+      "k": 7,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 404394.834
+    },
+    {
+      "motif": "salary|>1000|morning|True -> food_groceries|50-200|afternoon|False -> savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True -> transport_tng|50-200|morning|True",
+      "k": 6,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 127835.4628
+    },
+    {
+      "motif": "savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True -> transport_tng|50-200|morning|True -> food_groceries|50-200|afternoon|False -> utilities|200-1000|morning|True",
+      "k": 6,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 127835.4628
+    },
+    {
+      "motif": "food_mamak|50-200|afternoon|False -> transport_tng|50-200|morning|True -> food_groceries|50-200|afternoon|False -> salary|>1000|morning|True -> food_groceries|50-200|afternoon|False -> savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False",
+      "k": 7,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 110286.5911
+    },
+    {
+      "motif": "food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True -> transport_tng|50-200|morning|True -> food_groceries|50-200|afternoon|False -> utilities|200-1000|morning|True -> food_groceries|50-200|afternoon|False -> food_mamak|50-200|afternoon|False",
+      "k": 7,
+      "count": 2,
+      "expected": 0.0,
+      "chi2": 110286.5911
+    },
+    {
+      "motif": "food_groceries|50-200|afternoon|False -> salary|>1000|morning|True -> food_groceries|50-200|afternoon|False -> savings_transfer|>1000|morning|True -> food_mamak|50-200|afternoon|False -> family_transfer|200-1000|morning|True",
+      "k": 6,
+      "count": 2,
+      "expected": 0.0001,
+      "chi2": 66472.5207
+    }
+  ],
+  "motif_strength_score": 92.0
+}

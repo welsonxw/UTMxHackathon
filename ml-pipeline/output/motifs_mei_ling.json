@@ -1,0 +1,12 @@
+{
+  "top_motifs": [
+    {
+      "motif": "food_grab|10-50|afternoon|False -> salary|200-1000|evening|True -> food_groceries|10-50|evening|False -> food_grab|10-50|afternoon|False -> food_grab|10-50|afternoon|False",
+      "k": 5,
+      "count": 2,
+      "expected": 0.0082,
+      "chi2": 482.8469
+    }
+  ],
+  "motif_strength_score": 11.5
+}

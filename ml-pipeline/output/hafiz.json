@@ -1,0 +1,782 @@
+[
+  {
+    "transaction_id": "7a97c643-6564-12a9-b8a1-abcd1a6916c7",
+    "account_id": "hafiz_001",
+    "amount": 7200.0,
+    "category": "salary",
+    "merchant": "Hospital HR",
+    "timestamp": "2025-01-01T09:15:19",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "0f1099c6-c3e1-b258-fd72-4452ccea71ff",
+    "account_id": "hafiz_001",
+    "amount": 1500.0,
+    "category": "savings_transfer",
+    "merchant": "Maybank Savings",
+    "timestamp": "2025-01-02T08:58:18",
+    "is_recurring": true,
+    "transaction_type": "transfer"
+  },
+  {
+    "transaction_id": "f165c8ce-36e2-f24b-4300-0de01b2ed40e",
+    "account_id": "hafiz_001",
+    "amount": 800.0,
+    "category": "family_transfer",
+    "merchant": "Maybank Transfer",
+    "timestamp": "2025-01-03T08:11:52",
+    "is_recurring": true,
+    "transaction_type": "transfer"
+  },
+  {
+    "transaction_id": "f5ff0c03-bb5d-7385-de08-caa1a0817910",
+    "account_id": "hafiz_001",
+    "amount": 180.04,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-01-04T13:19:18",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "793d0e45-3f50-8249-2d83-a8233fb62d2c",
+    "account_id": "hafiz_001",
+    "amount": 321.17,
+    "category": "utilities",
+    "merchant": "SRK Penang",
+    "timestamp": "2025-01-05T11:24:32",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "4fcfa583-e1df-8af9-b474-c7e89286a175",
+    "account_id": "hafiz_001",
+    "amount": 146.12,
+    "category": "food_mamak",
+    "merchant": "McDonald's Malaysia",
+    "timestamp": "2025-01-05T12:58:18",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "d0060cc5-4278-c261-4e1b-cb383bb4a570",
+    "account_id": "hafiz_001",
+    "amount": 79.95,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-01-06T09:28:10",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e9dd38b8-69ac-e913-1102-1c9e32111ac1",
+    "account_id": "hafiz_001",
+    "amount": 199.75,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-07T14:09:43",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "3cc75f3e-dcb2-85f8-9d8c-f4d4950b16ff",
+    "account_id": "hafiz_001",
+    "amount": 103.08,
+    "category": "utilities",
+    "merchant": "TNB",
+    "timestamp": "2025-01-10T07:17:48",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "53be4721-f5b9-e1f5-acda-c615bc20f626",
+    "account_id": "hafiz_001",
+    "amount": 102.57,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-11T12:57:18",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "61b2ceba-4003-1ad6-22ed-93874ac034cf",
+    "account_id": "hafiz_001",
+    "amount": 65.87,
+    "category": "utilities",
+    "merchant": "Celcom",
+    "timestamp": "2025-01-12T07:57:28",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "13e7d611-d163-b764-ae17-584a9ed9c621",
+    "account_id": "hafiz_001",
+    "amount": 100.5,
+    "category": "utilities",
+    "merchant": "Maxis",
+    "timestamp": "2025-01-12T09:55:55",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "cde9d231-c8a3-8e7b-5d7d-255f2b68beef",
+    "account_id": "hafiz_001",
+    "amount": 91.12,
+    "category": "food_mamak",
+    "merchant": "Old Town White Coffee",
+    "timestamp": "2025-01-12T14:02:29",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "0e263730-0fec-f10e-0f30-e0051d1615ad",
+    "account_id": "hafiz_001",
+    "amount": 99.09,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-01-13T09:58:13",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "d5b8c255-1f4d-4cc5-091b-5ffbff651b90",
+    "account_id": "hafiz_001",
+    "amount": 160.65,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-14T16:15:20",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "0970425b-7def-b12b-691e-8e3b70562073",
+    "account_id": "hafiz_001",
+    "amount": 298.77,
+    "category": "subscription",
+    "merchant": "Great Eastern",
+    "timestamp": "2025-01-15T09:12:15",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "50842aaa-ed93-9512-e41a-3f3d0d204649",
+    "account_id": "hafiz_001",
+    "amount": 177.23,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-18T14:09:20",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e6941cdf-ccac-5657-78a2-77a8a82b302f",
+    "account_id": "hafiz_001",
+    "amount": 78.62,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-01-20T07:21:18",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "dfb1c3cd-ee0f-bdfd-35fe-f00d6e1b8793",
+    "account_id": "hafiz_001",
+    "amount": 89.0,
+    "category": "utilities",
+    "merchant": "Maxis",
+    "timestamp": "2025-01-20T09:24:05",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "dbcdd557-130a-9adb-7f13-71a9f4ceb45f",
+    "account_id": "hafiz_001",
+    "amount": 165.47,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-21T14:59:25",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "035b31e4-2820-46a9-ec1f-ea7f3610e451",
+    "account_id": "hafiz_001",
+    "amount": 174.65,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-25T13:51:00",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "abe63b14-2972-6010-33a0-9bf9f37207e3",
+    "account_id": "hafiz_001",
+    "amount": 106.68,
+    "category": "food_mamak",
+    "merchant": "Old Town White Coffee",
+    "timestamp": "2025-01-26T16:03:56",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "98304a24-b207-8093-08c0-3a191438a218",
+    "account_id": "hafiz_001",
+    "amount": 89.22,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-01-27T10:28:01",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "02b37cf9-e7b0-6b43-85e2-6df5e10ad788",
+    "account_id": "hafiz_001",
+    "amount": 177.41,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-01-28T14:05:49",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "833189cb-5daa-78bc-e2a5-d4ffcc60e673",
+    "account_id": "hafiz_001",
+    "amount": 7200.0,
+    "category": "salary",
+    "merchant": "Hospital HR",
+    "timestamp": "2025-02-01T09:58:39",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "a30e4c93-3223-6680-f0d2-c0c5e19e82c4",
+    "account_id": "hafiz_001",
+    "amount": 199.96,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-02-01T15:04:40",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "29ae9cd7-dfd1-4872-5f21-5ed42ad93787",
+    "account_id": "hafiz_001",
+    "amount": 1500.0,
+    "category": "savings_transfer",
+    "merchant": "Maybank Savings",
+    "timestamp": "2025-02-02T08:51:35",
+    "is_recurring": true,
+    "transaction_type": "transfer"
+  },
+  {
+    "transaction_id": "b5e41861-013f-c16d-e771-48e5f9485e49",
+    "account_id": "hafiz_001",
+    "amount": 90.45,
+    "category": "food_mamak",
+    "merchant": "McDonald's Malaysia",
+    "timestamp": "2025-02-02T14:16:34",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "7bf7c5ab-99da-e697-b730-afe8c945ba89",
+    "account_id": "hafiz_001",
+    "amount": 800.0,
+    "category": "family_transfer",
+    "merchant": "Maybank Transfer",
+    "timestamp": "2025-02-03T08:07:31",
+    "is_recurring": true,
+    "transaction_type": "transfer"
+  },
+  {
+    "transaction_id": "3aad7091-5b56-a060-4b1f-9ac5d8fa5aa1",
+    "account_id": "hafiz_001",
+    "amount": 76.32,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-02-03T10:15:26",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "917eabe5-e952-0b19-c84e-d939778f3a8c",
+    "account_id": "hafiz_001",
+    "amount": 167.67,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-02-04T16:58:58",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "5cb7cc8b-98da-c428-c563-0494406f29f6",
+    "account_id": "hafiz_001",
+    "amount": 322.6,
+    "category": "utilities",
+    "merchant": "SRK Penang",
+    "timestamp": "2025-02-05T09:25:09",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "5463ca58-2dff-38da-e77f-3fbfefaa0591",
+    "account_id": "hafiz_001",
+    "amount": 179.39,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-08T12:25:41",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "2eb1dd1b-2891-360d-1930-99f7f40d9829",
+    "account_id": "hafiz_001",
+    "amount": 81.41,
+    "category": "food_mamak",
+    "merchant": "Old Town White Coffee",
+    "timestamp": "2025-02-09T14:51:52",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "bec58982-e2e6-45b0-ace6-c9377aa84ee9",
+    "account_id": "hafiz_001",
+    "amount": 146.9,
+    "category": "utilities",
+    "merchant": "TNB",
+    "timestamp": "2025-02-10T06:11:41",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e18bbbbb-67f6-ead6-b010-fec0ed85ba7a",
+    "account_id": "hafiz_001",
+    "amount": 61.11,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-02-10T11:19:54",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e62607b8-73ae-aa7e-ff17-4aee879e66f0",
+    "account_id": "hafiz_001",
+    "amount": 130.97,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-11T14:34:40",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e5babcb8-2f13-90eb-4054-1d28035ffb53",
+    "account_id": "hafiz_001",
+    "amount": 91.26,
+    "category": "utilities",
+    "merchant": "Maxis",
+    "timestamp": "2025-02-12T09:26:37",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "f37911b8-6779-66ba-5d42-e08fd374d44a",
+    "account_id": "hafiz_001",
+    "amount": 70.8,
+    "category": "utilities",
+    "merchant": "Celcom",
+    "timestamp": "2025-02-12T11:35:39",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "9a8768a2-e47f-1046-7a12-860eeda16b2f",
+    "account_id": "hafiz_001",
+    "amount": 275.56,
+    "category": "subscription",
+    "merchant": "Great Eastern",
+    "timestamp": "2025-02-15T09:14:40",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "29cf5074-0c00-9fdd-f2ab-6e3f21f4dea7",
+    "account_id": "hafiz_001",
+    "amount": 177.79,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-15T13:04:19",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "0820b40b-349a-e3a2-18c5-6efac055bbbe",
+    "account_id": "hafiz_001",
+    "amount": 117.69,
+    "category": "food_mamak",
+    "merchant": "Old Town White Coffee",
+    "timestamp": "2025-02-16T16:15:10",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "2c1d71a8-b3b5-2c42-a1aa-036ee3e63ae1",
+    "account_id": "hafiz_001",
+    "amount": 93.94,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-02-17T11:18:39",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "8d6710a7-e16b-31fd-b944-d47700aa4578",
+    "account_id": "hafiz_001",
+    "amount": 187.85,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-18T16:23:44",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "898ff54d-642d-c724-83cc-5736418dd631",
+    "account_id": "hafiz_001",
+    "amount": 89.0,
+    "category": "utilities",
+    "merchant": "Maxis",
+    "timestamp": "2025-02-20T07:55:56",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "1daff6d6-281b-ca3b-15f8-48fc270b1920",
+    "account_id": "hafiz_001",
+    "amount": 23.77,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-21T12:19:50",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "b7f26d90-e938-8e6f-7a09-3fcf02347681",
+    "account_id": "hafiz_001",
+    "amount": 184.86,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-22T13:14:35",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "301dc70e-9654-8254-87c3-37ebd5713c5a",
+    "account_id": "hafiz_001",
+    "amount": 140.87,
+    "category": "food_mamak",
+    "merchant": "McDonald's Malaysia",
+    "timestamp": "2025-02-23T14:54:11",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "0987a19d-bcf2-e668-99a0-36a769d54fcf",
+    "account_id": "hafiz_001",
+    "amount": 65.26,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-02-24T11:53:57",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "1553c650-d58c-4282-ceac-6f1f56d25122",
+    "account_id": "hafiz_001",
+    "amount": 180.23,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-02-25T15:40:53",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "09f9d6dd-3ff7-ce03-b604-8259990e3052",
+    "account_id": "hafiz_001",
+    "amount": 7200.0,
+    "category": "salary",
+    "merchant": "Hospital HR",
+    "timestamp": "2025-03-01T09:34:52",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "4efd5a78-b25b-9d01-2348-816ee890f855",
+    "account_id": "hafiz_001",
+    "amount": 120.08,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-03-01T14:50:38",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "39e3854c-d807-0044-124d-54d1003b13d5",
+    "account_id": "hafiz_001",
+    "amount": 1500.0,
+    "category": "savings_transfer",
+    "merchant": "Maybank Savings",
+    "timestamp": "2025-03-02T08:32:53",
+    "is_recurring": true,
+    "transaction_type": "transfer"
+  },
+  {
+    "transaction_id": "5c1e1f62-3690-7e45-2515-c174b29b3519",
+    "account_id": "hafiz_001",
+    "amount": 123.56,
+    "category": "food_mamak",
+    "merchant": "Old Town White Coffee",
+    "timestamp": "2025-03-02T12:00:30",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "67129533-9ad4-92ff-a1d7-35a163721f64",
+    "account_id": "hafiz_001",
+    "amount": 800.0,
+    "category": "family_transfer",
+    "merchant": "Maybank Transfer",
+    "timestamp": "2025-03-03T08:19:54",
+    "is_recurring": true,
+    "transaction_type": "transfer"
+  },
+  {
+    "transaction_id": "824923d8-dcdc-3f58-82b8-86d5c108d4be",
+    "account_id": "hafiz_001",
+    "amount": 51.7,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-03T09:31:04",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "6fed5666-e312-dffb-7a86-2cef04981190",
+    "account_id": "hafiz_001",
+    "amount": 170.46,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-04T14:11:13",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "9ebfefa0-c012-88b6-523a-abc668d90aa1",
+    "account_id": "hafiz_001",
+    "amount": 281.42,
+    "category": "utilities",
+    "merchant": "SRK Penang",
+    "timestamp": "2025-03-05T11:59:53",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "40ebf5e5-eedd-3787-ef34-bbca362ba7c0",
+    "account_id": "hafiz_001",
+    "amount": 193.52,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-03-08T16:05:44",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "d7df0cbd-84e2-3c5d-3e81-529517f06baa",
+    "account_id": "hafiz_001",
+    "amount": 103.83,
+    "category": "food_mamak",
+    "merchant": "McDonald's Malaysia",
+    "timestamp": "2025-03-09T16:13:10",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "c444429a-c184-9bd1-06f7-e0f7bf373098",
+    "account_id": "hafiz_001",
+    "amount": 92.34,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-10T07:57:45",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "a96577db-1361-d6d7-bf0b-2d5be83253e4",
+    "account_id": "hafiz_001",
+    "amount": 143.46,
+    "category": "utilities",
+    "merchant": "TNB",
+    "timestamp": "2025-03-10T10:42:09",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "2bfffb39-2990-298b-fd77-cd71fc7d777e",
+    "account_id": "hafiz_001",
+    "amount": 159.37,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-11T16:54:23",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "ab072bbf-ebce-ed68-b44e-4fcc430bd2e0",
+    "account_id": "hafiz_001",
+    "amount": 88.21,
+    "category": "utilities",
+    "merchant": "Maxis",
+    "timestamp": "2025-03-12T06:43:57",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "646d3ec7-2346-d6e0-cc39-f93b33179708",
+    "account_id": "hafiz_001",
+    "amount": 73.41,
+    "category": "utilities",
+    "merchant": "Celcom",
+    "timestamp": "2025-03-12T09:06:54",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "9fea4695-f065-3347-31cd-4afddd810014",
+    "account_id": "hafiz_001",
+    "amount": 221.92,
+    "category": "subscription",
+    "merchant": "Great Eastern",
+    "timestamp": "2025-03-15T07:23:36",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "30cd74cb-3979-4d19-f1c1-92961ca38df0",
+    "account_id": "hafiz_001",
+    "amount": 167.75,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-15T14:34:45",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "4e6546f9-f35e-c902-0a96-42f0f0f078ce",
+    "account_id": "hafiz_001",
+    "amount": 88.24,
+    "category": "food_mamak",
+    "merchant": "McDonald's Malaysia",
+    "timestamp": "2025-03-16T14:34:31",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "b2aec363-7247-eb37-017f-7b865b1dd1af",
+    "account_id": "hafiz_001",
+    "amount": 99.76,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-17T10:29:22",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "0de94e50-8eec-4547-98fc-6a544ba7f98a",
+    "account_id": "hafiz_001",
+    "amount": 173.22,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-18T13:07:21",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "05dafc73-a936-75ab-b982-42ce05034290",
+    "account_id": "hafiz_001",
+    "amount": 89.0,
+    "category": "utilities",
+    "merchant": "Maxis",
+    "timestamp": "2025-03-20T10:21:38",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "eda59cb1-5874-c176-bade-44f32b8b9eac",
+    "account_id": "hafiz_001",
+    "amount": 123.35,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-22T16:40:23",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "789f25b5-7e8b-4965-3269-95e1da75df78",
+    "account_id": "hafiz_001",
+    "amount": 77.2,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-24T08:36:55",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "0d2ae32f-d68a-930b-98cd-70a423cf7b76",
+    "account_id": "hafiz_001",
+    "amount": 119.61,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-03-25T13:35:45",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "ccff04f8-147d-8ae8-ad58-738d6ef1faf7",
+    "account_id": "hafiz_001",
+    "amount": 20.29,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-29T14:04:12",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "23f45128-e357-4165-0ffc-5829f5aaca21",
+    "account_id": "hafiz_001",
+    "amount": 164.26,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-29T16:44:48",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "2c0529c0-d181-cb13-322a-f34af48e6049",
+    "account_id": "hafiz_001",
+    "amount": 143.9,
+    "category": "food_mamak",
+    "merchant": "McDonald's Malaysia",
+    "timestamp": "2025-03-30T13:54:43",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "848609ab-8511-555a-4a9b-a03ef4b3c762",
+    "account_id": "hafiz_001",
+    "amount": 99.93,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-31T06:56:00",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  }
+]

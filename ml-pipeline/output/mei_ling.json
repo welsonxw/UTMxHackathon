@@ -1,0 +1,1372 @@
+[
+  {
+    "transaction_id": "10c67fd9-94b2-b8fd-a02f-34a6795b929e",
+    "account_id": "mei_ling_001",
+    "amount": 18.16,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-01-01T14:58:38",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "c9c18070-b6d1-3089-633a-50eee0f9e038",
+    "account_id": "mei_ling_001",
+    "amount": 71.93,
+    "category": "shopping_offline_mall",
+    "merchant": "Watson's",
+    "timestamp": "2025-01-02T16:46:58",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "a399f82a-65aa-9c82-79f2-48b08cb4a0d7",
+    "account_id": "mei_ling_001",
+    "amount": 256.7,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-02T21:34:53",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "28ce6f24-1064-5d51-c6f8-da3eabe19f58",
+    "account_id": "mei_ling_001",
+    "amount": 48.19,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-01-02T23:47:00",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "daf0105b-a06c-05a1-c76a-bf436fa84dca",
+    "account_id": "mei_ling_001",
+    "amount": 9.63,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-01-04T18:16:43",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e779c470-3b7d-ae04-9591-86946856e45b",
+    "account_id": "mei_ling_001",
+    "amount": 7.9,
+    "category": "subscription",
+    "merchant": "Spotify",
+    "timestamp": "2025-01-05T08:34:37",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "538e504e-dc52-bdca-b2d8-7d5e29c0e596",
+    "account_id": "mei_ling_001",
+    "amount": 49.58,
+    "category": "medical",
+    "merchant": "Klinik Kesihatan",
+    "timestamp": "2025-01-05T10:42:44",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "686e80a9-f8af-8c79-3287-d050f2ead0a8",
+    "account_id": "mei_ling_001",
+    "amount": 20.43,
+    "category": "shopping_offline_mall",
+    "merchant": "Mr. DIY",
+    "timestamp": "2025-01-07T16:34:02",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "16a91f39-7bc7-3a83-fd63-ed5ba385ac4b",
+    "account_id": "mei_ling_001",
+    "amount": 293.98,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-07T18:30:54",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "1e715c0b-df6d-a8e1-6a4a-5ed7c4cf8b96",
+    "account_id": "mei_ling_001",
+    "amount": 33.33,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-07T19:18:27",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e1830294-8d04-999d-54b9-693c961cadbc",
+    "account_id": "mei_ling_001",
+    "amount": 103.74,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-01-07T22:24:45",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "deb135fa-75dd-67de-6072-c48f60b6cbb1",
+    "account_id": "mei_ling_001",
+    "amount": 324.08,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-09T19:57:55",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "b866517e-a260-db3c-6e62-91d24573f541",
+    "account_id": "mei_ling_001",
+    "amount": 62.19,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-09T23:51:32",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "5a58b185-775c-303c-551b-7f9da0996d52",
+    "account_id": "mei_ling_001",
+    "amount": 415.68,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-11T19:03:40",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "0570ceee-ad0f-aada-f470-76520f81f60c",
+    "account_id": "mei_ling_001",
+    "amount": 47.63,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-01-11T22:01:37",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "8000b3d9-4f5d-410c-21a4-cadebc344f4b",
+    "account_id": "mei_ling_001",
+    "amount": 55.09,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-01-13T06:36:43",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "b2b47ae7-a648-2fe6-6f6b-8421ad9593b4",
+    "account_id": "mei_ling_001",
+    "amount": 22.06,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-01-13T13:20:11",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "db045aae-cf4c-c239-703c-ff0b39763c0b",
+    "account_id": "mei_ling_001",
+    "amount": 15.21,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-01-13T19:43:53",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "ce66e9ee-15e5-8ecb-a456-0002d3f44c52",
+    "account_id": "mei_ling_001",
+    "amount": 39.54,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-14T21:21:51",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "08ae412f-1ef4-91a6-c979-4969399b6cad",
+    "account_id": "mei_ling_001",
+    "amount": 267.21,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-14T22:28:17",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "7a33c67c-0131-83e3-3317-16d827ef79cb",
+    "account_id": "mei_ling_001",
+    "amount": 600.0,
+    "category": "flexicredit_drawdown",
+    "merchant": "GXBank FlexiCredit",
+    "timestamp": "2025-01-16T06:58:26",
+    "is_recurring": false,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "74e8681a-beda-9894-0846-008638daf051",
+    "account_id": "mei_ling_001",
+    "amount": 563.19,
+    "category": "medical",
+    "merchant": "Pantai Hospital",
+    "timestamp": "2025-01-16T16:59:45",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "08ff3aad-0b8a-276b-3e99-c6c8cf68bc28",
+    "account_id": "mei_ling_001",
+    "amount": 11.02,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-01-17T16:18:07",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "86640cb0-0514-90ea-a9b3-8f203d3221cc",
+    "account_id": "mei_ling_001",
+    "amount": 82.17,
+    "category": "medical",
+    "merchant": "Klinik Kesihatan",
+    "timestamp": "2025-01-18T07:32:19",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "8a7db67f-dc96-0f12-f8d4-5cb940a230e6",
+    "account_id": "mei_ling_001",
+    "amount": 23.7,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-01-19T12:21:08",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e3bf018d-ebf8-e3d9-4615-0f34caab02c8",
+    "account_id": "mei_ling_001",
+    "amount": 61.39,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-01-20T06:10:15",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "9e3b164d-44c2-0f28-3f8d-e0e1457a46a7",
+    "account_id": "mei_ling_001",
+    "amount": 74.0,
+    "category": "medical",
+    "merchant": "Klinik Kesihatan",
+    "timestamp": "2025-01-20T09:03:48",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "1fe78154-0bd2-c551-207a-1cdec6767d96",
+    "account_id": "mei_ling_001",
+    "amount": 369.16,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-21T18:54:03",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "50884d44-2833-e1d5-50de-93987d7015fc",
+    "account_id": "mei_ling_001",
+    "amount": 54.14,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-21T19:32:32",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "5f8eec2c-0aff-8758-2db5-db0591157d5f",
+    "account_id": "mei_ling_001",
+    "amount": 14.67,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-01-21T20:50:05",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "fcef0f2a-30ea-bfed-43d2-7ba05c5fa7d2",
+    "account_id": "mei_ling_001",
+    "amount": 76.3,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-01-21T23:37:19",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "3ebdc77a-0496-be39-75f9-9ac46b153e7a",
+    "account_id": "mei_ling_001",
+    "amount": 430.98,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-23T20:26:44",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "efbd6b85-0731-323e-e132-01b6215fa8a3",
+    "account_id": "mei_ling_001",
+    "amount": 43.5,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-23T22:14:27",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "4ca44e40-943e-5a22-48d4-a701f3d13a7b",
+    "account_id": "mei_ling_001",
+    "amount": 11.73,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-01-25T15:53:44",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "cfc66178-1a66-f0bf-882f-45f9905813c6",
+    "account_id": "mei_ling_001",
+    "amount": 330.57,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-25T18:46:20",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "90776240-1780-2181-86f6-ff960b581672",
+    "account_id": "mei_ling_001",
+    "amount": 30.25,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-01-25T20:49:24",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "1f0c6f07-da30-5f2c-d76e-e016576b7da1",
+    "account_id": "mei_ling_001",
+    "amount": 135.66,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-01-25T22:52:01",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "2e05910a-ff93-d821-3dfb-f92113cc6858",
+    "account_id": "mei_ling_001",
+    "amount": 14.86,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-01-27T16:11:52",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "8e7fdffb-59ac-3e68-f052-e38f658a2d34",
+    "account_id": "mei_ling_001",
+    "amount": 194.26,
+    "category": "flexicredit_repayment",
+    "merchant": "GXBank FlexiCredit",
+    "timestamp": "2025-01-28T08:23:38",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "4bbdb813-c78f-9ef0-f413-b26889bca033",
+    "account_id": "mei_ling_001",
+    "amount": 14.19,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-01-28T18:54:44",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "299f1078-263a-521c-e336-d0f4e5bc175c",
+    "account_id": "mei_ling_001",
+    "amount": 64.54,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-01-28T20:41:25",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "f7934ad9-bf56-3222-d7f6-591969af5117",
+    "account_id": "mei_ling_001",
+    "amount": 213.3,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-28T22:15:59",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "4471883f-22e3-8f40-2fa4-f90edbacc8f7",
+    "account_id": "mei_ling_001",
+    "amount": 119.78,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-01-28T23:37:46",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "f5d38680-e1c0-fced-bbcc-73a3c87a3b51",
+    "account_id": "mei_ling_001",
+    "amount": 19.91,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-01-30T17:54:25",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "52715ad0-3d23-a847-5c47-c90691e43dd0",
+    "account_id": "mei_ling_001",
+    "amount": 287.24,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-01-30T21:12:11",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "d5a91d4c-949c-c376-77d2-519b34ac7eb9",
+    "account_id": "mei_ling_001",
+    "amount": 73.19,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-01-30T22:44:38",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "be0be92a-95c9-778b-a4f1-12e635c8de60",
+    "account_id": "mei_ling_001",
+    "amount": 53.2,
+    "category": "medical",
+    "merchant": "Klinik Kesihatan",
+    "timestamp": "2025-02-01T09:31:04",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "acee0cfb-bbed-9419-948e-8b3573cdaa08",
+    "account_id": "mei_ling_001",
+    "amount": 11.39,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-01T14:02:22",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "b46977d0-9f35-5e74-2feb-67af2331df81",
+    "account_id": "mei_ling_001",
+    "amount": 281.67,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-01T19:49:16",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "17490780-6c5d-1484-2eea-9771503c14af",
+    "account_id": "mei_ling_001",
+    "amount": 31.84,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-01T20:55:02",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "adad7a9d-5fcd-1af9-b361-3be8f0f8387d",
+    "account_id": "mei_ling_001",
+    "amount": 23.31,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-03T14:06:33",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "7448ed24-a7c6-6a0d-eb83-fa10e3d1bf77",
+    "account_id": "mei_ling_001",
+    "amount": 19.69,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-04T13:11:23",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "98f15b0f-a64b-747b-b871-3476a51d4257",
+    "account_id": "mei_ling_001",
+    "amount": 19.18,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-02-04T18:58:21",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "ac3e433a-56a9-ed2c-f619-7c0ef1c76b60",
+    "account_id": "mei_ling_001",
+    "amount": 441.63,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-04T20:06:48",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "ba574270-adb5-0c85-4b5f-5910b7d4f68f",
+    "account_id": "mei_ling_001",
+    "amount": 56.28,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-04T23:22:03",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "1b7ff031-118f-8689-b499-7e642d2751e6",
+    "account_id": "mei_ling_001",
+    "amount": 7.9,
+    "category": "subscription",
+    "merchant": "Spotify",
+    "timestamp": "2025-02-05T09:19:50",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "ba2fa235-e8f2-3ed7-c76b-6f009079ccab",
+    "account_id": "mei_ling_001",
+    "amount": 11.25,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-02-06T17:43:07",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "8134cad0-7a8c-0474-0ac7-c66522f33960",
+    "account_id": "mei_ling_001",
+    "amount": 286.34,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-06T21:03:55",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "11b8f12d-c58e-cfcb-cf24-d5f88a9f9ee2",
+    "account_id": "mei_ling_001",
+    "amount": 64.77,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-06T21:25:28",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "684009e8-e425-b0da-71e0-cfaecd9ba96e",
+    "account_id": "mei_ling_001",
+    "amount": 73.43,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-08T21:01:53",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "9180943b-2b9a-d524-8710-df9c8b72c34a",
+    "account_id": "mei_ling_001",
+    "amount": 423.16,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-08T21:51:12",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "a974bd85-c186-d70f-c53c-a2cb1b83fd31",
+    "account_id": "mei_ling_001",
+    "amount": 64.05,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-02-10T11:40:00",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "097ce985-363e-74d2-8790-73c5c83b1b40",
+    "account_id": "mei_ling_001",
+    "amount": 12.6,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-10T15:12:12",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "ec6c60b3-9f8f-23cf-16b7-5ac8cad921b4",
+    "account_id": "mei_ling_001",
+    "amount": 293.3,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-11T19:08:29",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "56f26ff3-ee08-da3d-04d6-a38789f40abf",
+    "account_id": "mei_ling_001",
+    "amount": 48.0,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-02-11T23:04:31",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "388c35a0-c1c0-e245-b2f3-c7c06fe0da13",
+    "account_id": "mei_ling_001",
+    "amount": 502.67,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-13T18:55:12",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "6438f66f-292b-a5c1-b4b1-a67c33470abf",
+    "account_id": "mei_ling_001",
+    "amount": 35.46,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-02-13T22:04:54",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "f72cc160-e8b1-2c43-06d3-65e27e450b85",
+    "account_id": "mei_ling_001",
+    "amount": 62.84,
+    "category": "shopping_offline_mall",
+    "merchant": "Mr. DIY",
+    "timestamp": "2025-02-15T15:02:25",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "23a677bc-0709-1a3c-a2ff-efac2b141fa1",
+    "account_id": "mei_ling_001",
+    "amount": 10.33,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-15T16:25:32",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "72b1a2f5-6732-1130-05bd-e299d7724844",
+    "account_id": "mei_ling_001",
+    "amount": 10.02,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-02-15T20:11:03",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "75c1c1d6-dafb-c98e-24ba-eb6f5ea01393",
+    "account_id": "mei_ling_001",
+    "amount": 41.19,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-02-15T20:16:50",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "5c8d2962-8782-3f10-729f-71035ef8195b",
+    "account_id": "mei_ling_001",
+    "amount": 539.76,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-15T20:23:54",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "466c38d5-4a72-2829-ba48-fda3ceb5c897",
+    "account_id": "mei_ling_001",
+    "amount": 44.65,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-02-17T06:38:03",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "f0a9ba53-59fe-a091-ead9-20f07a87d309",
+    "account_id": "mei_ling_001",
+    "amount": 24.61,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-18T15:21:51",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "5129d0bb-5840-d308-fe28-18c2a10cf501",
+    "account_id": "mei_ling_001",
+    "amount": 404.45,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-18T18:52:21",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "54cc63de-e67a-1dd2-827d-89b8a780f96c",
+    "account_id": "mei_ling_001",
+    "amount": 90.36,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-02-18T23:03:12",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "172d43c2-ae4b-09d0-07c1-da281ad3610a",
+    "account_id": "mei_ling_001",
+    "amount": 64.12,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-02-18T23:39:00",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "671e40cb-edb3-728e-c741-0568ae179c26",
+    "account_id": "mei_ling_001",
+    "amount": 382.99,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-20T22:21:34",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "6a2b460c-cd3b-9c00-5ce2-20e92f15f0f0",
+    "account_id": "mei_ling_001",
+    "amount": 66.99,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-20T23:22:59",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "05e04a3e-c06d-1bd6-b5f0-41702bf2f2a5",
+    "account_id": "mei_ling_001",
+    "amount": 350.0,
+    "category": "flexicredit_drawdown",
+    "merchant": "GXBank FlexiCredit",
+    "timestamp": "2025-02-22T09:02:09",
+    "is_recurring": false,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "a4730121-cd24-e42a-d7f9-c55999c6793a",
+    "account_id": "mei_ling_001",
+    "amount": 320.1,
+    "category": "medical",
+    "merchant": "Klinik Kesihatan",
+    "timestamp": "2025-02-22T12:20:15",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "ef79980d-2715-94e6-fa46-ef570c7f77d5",
+    "account_id": "mei_ling_001",
+    "amount": 11.21,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-22T13:15:44",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "c7f953b8-8143-db98-6b6c-517f83fc2c12",
+    "account_id": "mei_ling_001",
+    "amount": 33.8,
+    "category": "shopping_offline_mall",
+    "merchant": "Mr. DIY",
+    "timestamp": "2025-02-22T13:54:35",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "a586fdf9-bb9c-915d-de67-9c54e59adddc",
+    "account_id": "mei_ling_001",
+    "amount": 424.88,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-22T18:28:29",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "56a5fdb4-1ae1-0e50-ea6b-c30bf4a82ad1",
+    "account_id": "mei_ling_001",
+    "amount": 48.5,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-02-22T20:25:50",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "dbdfc593-0624-8159-9920-64dd1ccee7d7",
+    "account_id": "mei_ling_001",
+    "amount": 64.9,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-02-24T06:52:51",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "d45844bb-d351-5e57-3906-50e7662d3fee",
+    "account_id": "mei_ling_001",
+    "amount": 18.72,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-02-24T17:06:29",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "bc3dca63-afb4-669a-8d7d-e89dec86c87f",
+    "account_id": "mei_ling_001",
+    "amount": 15.19,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-02-25T15:48:04",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "1c66db05-c71e-93f4-7212-9d8aa93c34a2",
+    "account_id": "mei_ling_001",
+    "amount": 447.4,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-25T20:25:38",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "4c9da721-76d4-1d69-01ef-1f0c8a07d5d0",
+    "account_id": "mei_ling_001",
+    "amount": 77.25,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-02-25T22:13:07",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "34f99b77-ee51-a912-bfe1-9a662a4ffd56",
+    "account_id": "mei_ling_001",
+    "amount": 355.6,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-02-27T20:13:20",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "e4ca3a17-7bf3-ec05-68c6-194df319410b",
+    "account_id": "mei_ling_001",
+    "amount": 141.87,
+    "category": "flexicredit_repayment",
+    "merchant": "GXBank FlexiCredit",
+    "timestamp": "2025-02-28T07:57:39",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "6eb167c0-7de3-9b45-46a6-d78a35141309",
+    "account_id": "mei_ling_001",
+    "amount": 33.07,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-03-01T19:12:47",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "4b571308-2693-5562-b8ec-8191073cbada",
+    "account_id": "mei_ling_001",
+    "amount": 553.68,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-01T19:57:06",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "71ae7973-1a75-e8c3-2498-d93e498cb243",
+    "account_id": "mei_ling_001",
+    "amount": 86.18,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-03-01T22:47:50",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "5c163c2d-38fd-317e-8ac5-5b78ffa2ba68",
+    "account_id": "mei_ling_001",
+    "amount": 11.74,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-03-03T20:30:33",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "08fddce5-8d79-cbf2-faaf-30f15ce1f861",
+    "account_id": "mei_ling_001",
+    "amount": 21.55,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-04T15:22:50",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "ee1d032f-3e1b-3f20-bf5c-e2b94c2250f1",
+    "account_id": "mei_ling_001",
+    "amount": 329.4,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-04T20:51:53",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "007edfce-0cdd-d33d-f33a-744a2a6d3de4",
+    "account_id": "mei_ling_001",
+    "amount": 45.78,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-03-04T22:34:01",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "85692bc1-77ad-3957-75c7-a384e7fa2f8e",
+    "account_id": "mei_ling_001",
+    "amount": 22.72,
+    "category": "shopping_offline_mall",
+    "merchant": "Watson's",
+    "timestamp": "2025-03-06T12:57:52",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "07831298-0b44-1387-56eb-a71742a69fbc",
+    "account_id": "mei_ling_001",
+    "amount": 448.79,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-06T21:26:46",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "ca1d23ab-d764-c1cd-c220-9e66be606510",
+    "account_id": "mei_ling_001",
+    "amount": 61.37,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-06T23:15:08",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "fdfb2084-23ba-ab00-af0c-bf2f12e0286a",
+    "account_id": "mei_ling_001",
+    "amount": 387.36,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-08T19:18:11",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "d3dda7a2-3b02-4b85-d9df-93377c4e720a",
+    "account_id": "mei_ling_001",
+    "amount": 11.78,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-03-08T21:02:26",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "48751db6-73d8-17ec-416d-4b17cd8de1e3",
+    "account_id": "mei_ling_001",
+    "amount": 122.9,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-03-08T23:29:17",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "089d555b-5f0d-ad89-136a-d7d5ab2f6b65",
+    "account_id": "mei_ling_001",
+    "amount": 71.42,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-10T08:06:27",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "f12f615d-015f-a850-e16e-b668d15bebba",
+    "account_id": "mei_ling_001",
+    "amount": 15.59,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-03-11T17:40:53",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "50f23bce-6586-0740-d403-6251f107cfd3",
+    "account_id": "mei_ling_001",
+    "amount": 548.28,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-11T19:41:24",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "0919e6f9-482d-b7f8-8e20-1852647d2d09",
+    "account_id": "mei_ling_001",
+    "amount": 40.71,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-11T21:20:39",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "145c35db-bcca-af48-3332-d95bf4f0174a",
+    "account_id": "mei_ling_001",
+    "amount": 60.03,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-03-11T22:31:14",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "0c112d7f-8f3e-19dc-8bcf-165c4a1645b1",
+    "account_id": "mei_ling_001",
+    "amount": 14.01,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-12T15:29:17",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "b0a4d517-2d8b-9e7c-b49d-64cee7ce536a",
+    "account_id": "mei_ling_001",
+    "amount": 13.84,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-03-12T18:09:09",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "5ef2e9a7-f076-8022-01e6-94c331257335",
+    "account_id": "mei_ling_001",
+    "amount": 15.29,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-13T16:04:59",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "308984e9-4f9d-1f17-2d18-4ce5a069374b",
+    "account_id": "mei_ling_001",
+    "amount": 236.89,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-13T18:11:48",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "c75e363d-61e4-00e5-36da-636a88e33198",
+    "account_id": "mei_ling_001",
+    "amount": 36.54,
+    "category": "food_groceries",
+    "merchant": "Mydin",
+    "timestamp": "2025-03-13T19:33:09",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "4b872e2f-252f-4ad8-1d76-d7a0219dc07b",
+    "account_id": "mei_ling_001",
+    "amount": 76.78,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-03-13T22:17:06",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "91a16b4d-7143-d96c-c82d-0182daa3c742",
+    "account_id": "mei_ling_001",
+    "amount": 188.54,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-15T20:33:47",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "33512493-6248-dfc0-d53d-ef9474ccc05f",
+    "account_id": "mei_ling_001",
+    "amount": 56.9,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-03-15T22:09:34",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "92ca63d6-1d54-5fd4-2d89-c4bbdf6816ba",
+    "account_id": "mei_ling_001",
+    "amount": 64.14,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-17T06:26:39",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "c41afcca-b26f-b1e7-8675-9dd05fcb8362",
+    "account_id": "mei_ling_001",
+    "amount": 23.05,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-17T15:36:43",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "a3000ff1-5f9e-5410-904d-8b4881a2a1ec",
+    "account_id": "mei_ling_001",
+    "amount": 416.19,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-18T19:20:29",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "9a213aa2-1f88-aba9-2eaf-6261450e9c8c",
+    "account_id": "mei_ling_001",
+    "amount": 47.92,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-03-18T21:18:19",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "61b73798-dabf-5563-3c83-1dc60f31be10",
+    "account_id": "mei_ling_001",
+    "amount": 16.38,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-21T16:49:18",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "89ee7380-0745-4078-078c-b02232655f0a",
+    "account_id": "mei_ling_001",
+    "amount": 11.22,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-22T14:27:18",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "8f761083-b61b-f38a-63bb-d751de12b0df",
+    "account_id": "mei_ling_001",
+    "amount": 399.48,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-22T18:27:46",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "e0086f89-af73-2c57-a6d7-1acbe86a5da6",
+    "account_id": "mei_ling_001",
+    "amount": 45.03,
+    "category": "food_groceries",
+    "merchant": "Tesco",
+    "timestamp": "2025-03-22T22:28:23",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "000df907-9d5b-baa7-1076-1e005ef4b48b",
+    "account_id": "mei_ling_001",
+    "amount": 89.41,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-03-22T23:14:00",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "239013aa-79b0-b373-3990-35fa60d437af",
+    "account_id": "mei_ling_001",
+    "amount": 63.37,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-24T10:56:59",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "6fab6954-4c44-61df-a8eb-7235f31f07aa",
+    "account_id": "mei_ling_001",
+    "amount": 13.05,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-25T15:37:40",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "d51a27e0-7d7e-c31c-01ea-7f0461ffcc4b",
+    "account_id": "mei_ling_001",
+    "amount": 213.94,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-25T18:50:22",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "e9a4b5e8-7add-555f-530a-7079026e14ef",
+    "account_id": "mei_ling_001",
+    "amount": 18.53,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-03-26T19:04:54",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "e72382ea-06cc-864e-849d-e143a42ae261",
+    "account_id": "mei_ling_001",
+    "amount": 120.19,
+    "category": "flexicredit_repayment",
+    "merchant": "GXBank FlexiCredit",
+    "timestamp": "2025-03-28T09:05:03",
+    "is_recurring": true,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "a954bcd3-74ba-91b8-fb69-467258075366",
+    "account_id": "mei_ling_001",
+    "amount": 367.51,
+    "category": "salary",
+    "merchant": "Grab Earnings",
+    "timestamp": "2025-03-29T22:25:18",
+    "is_recurring": true,
+    "transaction_type": "credit"
+  },
+  {
+    "transaction_id": "5d4ae27a-8815-bc00-94f9-262b22056f76",
+    "account_id": "mei_ling_001",
+    "amount": 98.77,
+    "category": "shopping_online_shopee",
+    "merchant": "Shopee",
+    "timestamp": "2025-03-29T23:57:37",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "d2a0e8b4-2f08-0ba3-3750-6b9fda90fc69",
+    "account_id": "mei_ling_001",
+    "amount": 52.48,
+    "category": "transport_tng",
+    "merchant": "Touch n Go eWallet",
+    "timestamp": "2025-03-31T07:31:55",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "c138cba9-2fbc-7d26-50be-b49b36426e09",
+    "account_id": "mei_ling_001",
+    "amount": 16.85,
+    "category": "food_grab",
+    "merchant": "Grab Food",
+    "timestamp": "2025-03-31T16:25:53",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  },
+  {
+    "transaction_id": "0e970fa7-baae-19f6-d540-476eae4ec151",
+    "account_id": "mei_ling_001",
+    "amount": 13.99,
+    "category": "food_mamak",
+    "merchant": "Mamak Pelita",
+    "timestamp": "2025-03-31T20:56:54",
+    "is_recurring": false,
+    "transaction_type": "debit"
+  }
+]

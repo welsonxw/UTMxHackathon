@@ -1,0 +1,12 @@
+{
+  "top_motifs": [
+    {
+      "motif": "food_groceries|10-50|afternoon|False -> food_mamak|10-50|evening|False -> transport_grab|<10|morning|False -> savings_transfer|50-200|morning|True -> food_groceries|10-50|afternoon|False -> food_groceries|10-50|afternoon|False",
+      "k": 6,
+      "count": 2,
+      "expected": 0.0008,
+      "chi2": 4902.0104
+    }
+  ],
+  "motif_strength_score": 46.3
+}

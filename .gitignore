@@ -23,8 +23,9 @@ env/
 *.egg
 .pytest_cache/
 
-# ML pipeline outputs
-ml-pipeline/output/*.json
+# ML pipeline outputs — precomputed JSONs ARE committed (needed for demo/Firestore upload)
+# Only exclude very large raw dumps if added in future
+# ml-pipeline/output/*.json
 
 # Firebase
 .firebase/
